@@ -1,0 +1,37 @@
+.resources {
+  padding: 2rem 1rem;
+}
+
+.resources-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.tips-list {
+  list-style: none;
+  padding: 0;
+}
+
+.tip-item {
+  background-color: #f8f9fa;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .resources-container {
+    padding: 1rem;
+  }
+
+  .tip-item {
+    font-size: 1rem;
+  }
+}
