@@ -4,6 +4,8 @@ import Navbar from './Navbar';
 import Home from './Home';
 import MoodTracker from './MoodTracker';
 import Resources from './Resources';
+import Reminders from './Reminders';
+import Quotes from './Quotes';
 import './App.css';
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/mood-tracker" element={<MoodTracker />} />
           <Route path="/resources" element={<Resources />} />
+          <Route path="/reminders" element={<Reminders />} />
+          <Route path="/quotes" element={<Quotes />} />
         </Routes>
       </div>
     </Router>
